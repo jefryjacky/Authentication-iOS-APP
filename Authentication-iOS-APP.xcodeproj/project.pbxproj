@@ -16,6 +16,8 @@
 		9FC1839E2712EA180054A13A /* Authentication_iOS_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1839D2712EA180054A13A /* Authentication_iOS_APPTests.swift */; };
 		9FC183A82712EA180054A13A /* Authentication_iOS_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC183A72712EA180054A13A /* Authentication_iOS_APPUITests.swift */; };
 		9FC183AA2712EA180054A13A /* Authentication_iOS_APPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC183A92712EA180054A13A /* Authentication_iOS_APPUITestsLaunchTests.swift */; };
+		9FC183B72712EB1F0054A13A /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC183B62712EB1F0054A13A /* WelcomeView.swift */; };
+		9FC183BA271343540054A13A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC183B9271343540054A13A /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		9FC183A32712EA180054A13A /* Authentication-iOS-APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Authentication-iOS-APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC183A72712EA180054A13A /* Authentication_iOS_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication_iOS_APPUITests.swift; sourceTree = "<group>"; };
 		9FC183A92712EA180054A13A /* Authentication_iOS_APPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication_iOS_APPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9FC183B62712EB1F0054A13A /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		9FC183B9271343540054A13A /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +102,14 @@
 		9FC183862712EA140054A13A /* Authentication-iOS-APP */ = {
 			isa = PBXGroup;
 			children = (
+				9FC183B8271343240054A13A /* components */,
 				9FC183872712EA140054A13A /* Authentication_iOS_APPApp.swift */,
 				9FC183892712EA140054A13A /* ContentView.swift */,
 				9FC1838B2712EA170054A13A /* Assets.xcassets */,
 				9FC183902712EA170054A13A /* Persistence.swift */,
 				9FC183922712EA170054A13A /* Authentication_iOS_APP.xcdatamodeld */,
 				9FC1838D2712EA170054A13A /* Preview Content */,
+				9FC183B62712EB1F0054A13A /* WelcomeView.swift */,
 			);
 			path = "Authentication-iOS-APP";
 			sourceTree = "<group>";
@@ -131,6 +137,14 @@
 				9FC183A92712EA180054A13A /* Authentication_iOS_APPUITestsLaunchTests.swift */,
 			);
 			path = "Authentication-iOS-APPUITests";
+			sourceTree = "<group>";
+		};
+		9FC183B8271343240054A13A /* components */ = {
+			isa = PBXGroup;
+			children = (
+				9FC183B9271343540054A13A /* CustomButton.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +277,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FC183B72712EB1F0054A13A /* WelcomeView.swift in Sources */,
 				9FC183912712EA170054A13A /* Persistence.swift in Sources */,
+				9FC183BA271343540054A13A /* CustomButton.swift in Sources */,
 				9FC183942712EA170054A13A /* Authentication_iOS_APP.xcdatamodeld in Sources */,
 				9FC1838A2712EA140054A13A /* ContentView.swift in Sources */,
 				9FC183882712EA140054A13A /* Authentication_iOS_APPApp.swift in Sources */,
